@@ -175,12 +175,15 @@ button {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  border: none;
 }
 
 .delete_post{
+  border: none;
   background-color: red;
 }
 
 .updateButton_post{
+  border: none;
   background-color: green;
 }

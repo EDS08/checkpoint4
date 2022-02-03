@@ -16,34 +16,36 @@ const CreatePost = () => {
   };
 
   return (
-    <div className="CreatePost">
-      <div className="uploadPost">
-        <label>Ton pseudo</label>
-        <input
-          type="text"
-          onChange={(e) => {
-            setUserName(e.target.value);
-          }}
-        />
+    <form action="">
+      <div className="CreatePost">
+        <div className="uploadPost">
+          <label>Ton pseudo</label>
+          <input
+            type="text"
+            onChange={(e) => {
+              setUserName(e.target.value);
+            }}
+          />
 
-        <label>Titre avec niveau</label>
-        <input
-          type="text"
-          onChange={(e) => {
-            setTitle(e.target.value);
-          }}
-        />
+          <label>Titre avec niveau</label>
+          <input
+            type="text"
+            onChange={(e) => {
+              setTitle(e.target.value);
+            }}
+          />
 
-        <label>Lieu / Coordonnées / déroulement</label>
-        <textarea
-          onChange={(e) => {
-            setText(e.target.value);
-          }}
-        />
+          <label>Lieu / Coordonnées / déroulement</label>
+          <textarea
+            onChange={(e) => {
+              setText(e.target.value);
+            }}
+          />
 
-        <button className="submitPost" onClick={submitPost}>Validation</button>
+          <button className="submitPost" onClick={submitPost} type="submit">Validation</button>
+        </div>
       </div>
-    </div>
+    </form>
   );
 };
 
