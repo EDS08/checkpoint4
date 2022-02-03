@@ -19,15 +19,6 @@ connection.connect((err) => {
 });
 
 //GET POST
-app.get("/api/get", (req, res) => {
-  connection.query("SELECT * FROM posts", (err, result) => {
-    if (err) {
-      console.log(err);
-    }
-    res.send(result);
-  });
-});
-
 app.get("/api/getFromId/:id", (req, res) => {
   const id = req.params.id;
   connection.query("SELECT * FROM posts WHERE id=?", id, (err, result) => {
