@@ -1,8 +1,8 @@
 const HomePage = () => {
   return (
-    <div>
-      <h1>Welcome to home</h1>
-    </div>
+      <div className="home">
+        <h1 className="home_title">Blog Off-road Partie</h1>
+      </div>
   );
 };
 

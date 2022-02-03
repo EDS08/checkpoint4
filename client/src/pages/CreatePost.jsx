@@ -18,7 +18,7 @@ const CreatePost = () => {
   return (
     <div className="CreatePost">
       <div className="uploadPost">
-        <label>UserName</label>
+        <label>Ton pseudo</label>
         <input
           type="text"
           onChange={(e) => {
@@ -26,7 +26,7 @@ const CreatePost = () => {
           }}
         />
 
-        <label>Title</label>
+        <label>Titre avec niveau</label>
         <input
           type="text"
           onChange={(e) => {
@@ -34,7 +34,7 @@ const CreatePost = () => {
           }}
         />
 
-        <label>Post Text</label>
+        <label>Lieu / Coordonnées / déroulement</label>
         <textarea
           onChange={(e) => {
             setText(e.target.value);
