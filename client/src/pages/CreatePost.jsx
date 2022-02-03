@@ -41,7 +41,7 @@ const CreatePost = () => {
           }}
         />
 
-        <button onClick={submitPost}>Submit Post</button>
+        <button className="submitPost" onClick={submitPost}>Validation</button>
       </div>
     </div>
   );

@@ -98,6 +98,14 @@ button {
   margin: 2px;
 }
 
+.submitPost{
+  font-size: 1em;
+  margin-top: 10px;
+  background-color: rgb(70, 150, 54);
+  width: 80%;
+  height: 10%;
+}
+
 /* MAIN PAGE CSS*/
 
 .MainPage{
